@@ -1,0 +1,287 @@
+%% USPSC-Cap2-Desenvolvimento.tex 
+
+% ---
+% Este capítulo, utilizado por diferentes exemplos do abnTeX2, ilustra o uso de
+% comandos do abnTeX2 e de LaTeX.
+% ---
+
+\chapter{Desenvolvimento}\label{cap-desenv}
+
+Neste capítulo, será apresentada uma exposição ordenada e detalhada do desenvolvimento do presente trabalho. O início deste capítulo se dá com uma explanação da metodologia empregada, delineando os passos e abordagens utilizados para alcançar os objetivos propostos.
+
+\section{Metodologia}\label{sec-metodologia}
+
+\subsection{Definiç\~ao de domínio do problema}
+
+O problema abordado neste estudo refere-se à previsão de reinternação hospitalar de pacientes que receberam cuidados de saúde mental no sistema de informação da Coordenação de Internações em Ribeirão Preto, Brasil, no período de julho de 2012 a dezembro de 2017. Este domínio envolve a aplicação de modelos de classificação de aprendizado de máquina em um conjunto de dados específico, com o propósito de antecipar eventos de reinternação hospitalar. Além disso, o estudo incorpora técnicas de inteligência artificial explicável, notadamente o SHapley Additive exPlanations (SHAP), para identificar e quantificar as variáveis que apresentam maior influência nos casos de reinternação, contribuindo assim para uma compreensão mais profunda dos fatores associados a esses eventos. A análise deste domínio visa aprimorar a capacidade de tomada de decisões e políticas de saúde, com ênfase na prevenção eficaz e na otimização dos recursos hospitalares.
+
+\subsection{Dados}
+
+O conjunto de dados empregado neste estudo já foi explorado em outras pesquisas \cite{barros2016, eHealth, FeatureSensitivity}. Ele abrange informações de 8.755 pacientes, com uma média de idade de 37,6 anos. As características do conjunto de dados englobam aspectos sociodemográficos, dados sobre internações hospitalares, diagnósticos, utilização de serviços médicos, informações de alta hospitalar e registros temporais, como datas de admissão, alta e óbito. A \autoref{tab:dados} descreve as variáveis utilizadas neste estudo.
+
+\begin{table}[H]
+	\IBGEtab{
+		\caption{\label{tab:dados}Variáveis utilizadas do conjunto de dados}
+	}
+	{
+		\begin{tabular}{ccc}
+			\toprule
+			Nome da variável & Tipo da variável \\
+			\midrule \midrule
+   			Arranjo docimiliar & Categórica \\
+   			\midrule
+			AVC & Booleana \\
+			\midrule
+			Convulsão & Booleana \\
+			\midrule
+			Dia da semana na 1\textsuperscript{a} internação & Numérica (inteira) \\
+			\midrule
+			Diabetes & Booleana \\
+			\midrule
+			Diagnóstico (CID10) & Categórica \\
+			\midrule
+			Doença infecto & Booleana \\
+			\midrule
+			Estado civil & Categórica \\
+			\midrule
+			Etnia & Categórica \\
+			\midrule
+			HAS & Booleana \\
+			\midrule
+			Idade na 1\textsuperscript{a} internação & Numérica (inteira) \\
+			\midrule
+			Mês da 1\textsuperscript{a} internação & Numérica (inteira) \\
+			\midrule
+			Problemas respiratórios & Booleana \\
+			\midrule
+			Quantidade de problemas na 1\textsuperscript{a} internação & Numérico (inteira) \\
+			\midrule
+			Sexo & Categórica \\
+			\midrule
+			Situação profissão & Categórica \\
+			\midrule
+			Tempo de internação (em horas) & Numérica (contínua) \\
+			\midrule
+			Traumatismo & Booleana \\
+			\bottomrule
+		\end{tabular}
+	}
+	{
+		\fonte{Autor (2023)}
+	}
+\end{table}
+
+É importante ressaltar que essas não são todas as variáveis disponíveis no conjunto de dados. Mais detalhes sobre como a seleção de atributos foi feita estão disponíveis na \autoref{sec:limpeza}.
+
+\subsection{Ferramentas utilizadas}\label{sec:ferramentas}
+
+É crescente o aumento da popularidade da linguagem Python em aplicações científicas.
+Boa parte deste aumento se dá pela diversidade de bibliotecas científicas como Numpy e Scipy. Na área de Machine Learning, a linguagem Python apresenta diversas bibliotecas que permitem a execução de modelos de ML, com destaque para a biblioteca Scikit-Learn \cite{Buitinck}
+%
+%A proposta da biblioteca Scikit-Learn consiste em fornecer um conjunto de funcionalidades padronizadas, de modo a permitir que especialistas das mais diversas áreas
+%possam construir modelos de Machine Learning (BUITINCK et al., 2013).
+%Além de bem documentados, os modelos de ML implementados na biblioteca
+%Scikit-Learn são padronizados quando ao input de dados e aos métodos disponíveis para
+%a sua execução. Todos os modelos disponíveis na biblioteca aceitam entrada de dados na
+%forma de arrays bidimensionais (observações x características).
+%Há três componentes básicos: Transformer, Estimator e Predictor. Estes são apresentados a seguir, em conjunto com a Figura 1.13, a qual apresenta como estes componentes estão relacionados entre si e como são aplicados aos conjuntos de treinamento e de
+%teste na busca pelo ajuste de modelos de Machine Learning. Pressupõe-se que o conjunto
+%de dados foi dividido em duas partes: treinamento e teste, para o qual a biblioteca ScikitLearn dispõe do método train_test_split, que pode ser utilizado como segue:
+
+\subsection{Limpeza, análise exploratória e prepação dos dados}\label{sec:limpeza}
+
+Inicialmente, a limpeza dos dados será realizada para garantir a consistência e integridade do conjunto de dados. Em seguida, uma análise exploratória detalhada dos dados será conduzida, com a possibilidade de criação de novas variáveis que possam proporcionar insights valiosos. Um exemplo é a variável "tempo de internação", definida como a diferença entre a data de entrada e a data de saída, que poderá ser criada para uma compreensão mais precisa do tempo de permanência dos pacientes.
+
+\subsection{Treinamento dos classificadores}
+
+Posteriormente, a fase de treinamento dos classificadores será iniciada, explorando diferentes algoritmos de aprendizado de máquina, ajustando seus hiperparâmetros e empregando a validação cruzada para garantir que os modelos sejam robustos e generalizáveis.
+
+\subsection{Análise de variáveis mais importantes}
+Por fim, será utilizada a biblioteca \texttt{shap} para avaliar o impacto das variáveis no processo de tomada de decisões dos modelos. Isso permitirá a identificação de quais características estão mais fortemente associadas a casos de reinternação hospitalar, fornecendo uma visão detalhada das relações entre variáveis e resultados.
+
+\subsection{Apresentação dos resultados}
+Os resultados obtidos após o término dos processos mencionados na seção TAL serão apresentados de maneira clara e concisa, utilizando tabelas e gráficos informativos. As tabelas destacarão métricas de desempenho, como precisão, recall, F1-score e área sob a curva ROC, para cada modelo testado. Além disso, serão fornecidos gráficos que ilustrarão a importância relativa das variáveis no processo de previsão, com base nas análises SHAP.
+
+[Incluir imagem com o fluxograma do processo descrito na metodologia]
+
+
+% Este capítulo é parte principal do trabalho acadêmico e deve conter a exposição ordenada e detalhada do assunto. Divide-se em seções e subseções, em conformidade com a abordagem do tema e do método, abrangendo: revisão bibliográfica, materiais e métodos, técnicas utilizadas, resultados obtidos e discussão.
+
+% Abaixo são apresentados minimamente exemplos tabelas, quadros, divisões de documentos e outros itens. Consulte o \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} para demais informações. 
+
+% \section{Resultados de comandos}\label{sec-divisoes}
+
+% % ---
+% \subsection{Tabelas e quadros}
+
+% O \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} apresenta orientações completas e diversas formatações de tabelas, dentre elas a \autoref{tab-ibge}, que é um exemplo de tabela alinhada que pode ser longa ou curta, conforme padrão do Instituto Brasileiro de Geografia e Estatística (IBGE).
+
+% %\begin{table}[H]
+% \begin{table}[htb]
+% 	\IBGEtab{%
+% 		\caption{Frequência anual por categoria de usuários}%
+% 		\label{tab-ibge}
+% 	}{%
+% 		\begin{tabular}{ccc}
+% 			\toprule
+% 			Categoria de Usuários & Frequência de Usuários \\
+% 			\midrule \midrule
+% 			Graduação & 72\% \\
+% 			\midrule 
+% 			Pós-Graduação & 15\% \\
+% 			\midrule 
+% 			Docente & 10\% \\
+% 			\midrule 
+% 			Outras & 3\% \\
+% 			\bottomrule
+% 		\end{tabular}%
+% 	}{%
+% 		\fonte{Elaborada pelos autores.}%
+% 		\nota{Exemplo de uma nota.}%
+% 		\nota[Anotações]{Uma anotação adicional, que pode ser seguida de várias
+% 			outras.}%
+		
+% 	}
+% \end{table}
+
+
+% A formatação do quadro é similar à tabela, mas deve ter suas laterais fechadas e conter as linhas horizontais.
+% \newpage
+
+% % o comando \newpage foi utilizado para forçar a quebra de página
+
+% \begin{quadro}[htb]
+% 	\caption{\label{quadro_modelo}Níveis de investigação}
+% 	\begin{tabular}{|p{2.6cm}|p{6.0cm}|p{2.25cm}|p{3.40cm}|}
+% 		\hline
+% 		\textbf{Nível de Investigação} & \textbf{Insumos}  & \textbf{Sistemas de Investigação}  & \textbf{Produtos}  \\
+% 		\hline
+% 		Meta-nível & Filosofia\index{filosofia} da Ciência  & Epistemologia &
+% 		Paradigma  \\
+% 		\hline
+% 		Nível do objeto & Paradigmas do metanível e evidências do nível inferior &
+% 		Ciência  & Teorias e modelos \\
+% 		\hline
+% 		Nível inferior & Modelos e métodos do nível do objeto e problemas do nível inferior & Prática & Solução de problemas  \\
+% 		\hline
+% 	\end{tabular}
+% 	\begin{flushleft}
+% 		%\fonte{\citeonline{van1986}}
+% 		Fonte: \citeonline{}
+% 	\end{flushleft}
+% \end{quadro} 
+
+
+% No \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} são apresentados mais exemplos de quadros.
+
+% % ---
+% \subsection{Figuras}\label{sec_figuras}
+% % ---
+% \index{figuras}Figuras podem ser criadas diretamente em \LaTeX,
+% como o exemplo da \autoref{fig_circulo}. \\ 
+
+% \begin{figure}[htb]
+% 	\caption{\label{fig_circulo}A delimitação do espaço}
+% 	\begin{center}
+% 		\setlength{\unitlength}{9cm}
+% 		\begin{picture}(1,1)
+% 		\put(0,0){\line(0,1){1}}
+% 		\put(0,0){\line(1,0){1}}
+% 		\put(0,0){\line(1,1){1}}
+% 		\put(0,0){\line(1,2){.5}}
+% 		\put(0,0){\line(1,3){.3333}}
+% 		\put(0,0){\line(1,4){.25}}
+% 		\put(0,0){\line(1,5){.2}}
+% 		\put(0,0){\line(1,6){.1667}}
+% 		\put(0,0){\line(2,1){1}}
+% 		\put(0,0){\line(2,3){.6667}}
+% 		\put(0,0){\line(2,5){.4}}
+% 		\put(0,0){\line(3,1){1}}
+% 		\put(0,0){\line(3,2){1}}
+% 		\put(0,0){\line(3,4){.75}}
+% 		\put(0,0){\line(3,5){.6}}
+% 		\put(0,0){\line(4,1){1}}
+% 		\put(0,0){\line(4,3){1}}
+% 		\put(0,0){\line(4,5){.8}}
+% 		\put(0,0){\line(5,1){1}}
+% 		\put(0,0){\line(5,2){1}}
+% 		\put(0,0){\line(5,3){1}}
+% 		\put(0,0){\line(5,4){1}}
+% 		\put(0,0){\line(5,6){.8333}}
+% 		\put(0,0){\line(6,1){1}}
+% 		\put(0,0){\line(6,5){1}}
+% 		\end{picture}
+% 	\end{center}
+% 	\legend{Fonte: \citeonline{equipeabntex2}}
+% \end{figure}
+
+% Consulte o \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} para conhecer mais recursos referentes à figuras. 
+
+% % ---
+% \section{Divisões do documento}\label{sec-divisoes-b}
+% Esta seção exemplifica o uso de divisões de documentos em conformidade com a ABNT NBR 6024  \cite{nbr6024}.
+% % ---
+% % ---
+% \subsection{Divisões do documento: subseção}\label{sec-divisoes-subsection}
+% % ---
+
+% Um exemplo de seção é a \autoref{sec-divisoes-b}. Esta é a \autoref{sec-divisoes-subsection}.
+
+% \subsubsection{Divisões do documento: subsubseção}\label{sec-divisoes-subsubsection}
+
+% Isto é uma \texttt{subsubsection} do \LaTeX, mas é denominada de ``subseção'' porque no português não temos a palavra ``subsubseção''.
+
+% \subsubsection{Divisões do documento: subsubseção}
+
+% Isto é outra subsubseção.
+
+% \subsection{Divisões do documento: subseção}\label{sec-exemplo-subsec}
+
+% Isto é uma subseção.
+
+% \subsubsection{Divisões do documento: subsubseção}
+
+% Isto é mais uma subsubseção da \autoref{sec-exemplo-subsec}.
+
+
+% \subsubsubsection{Esta é uma subseção de quinto
+% nível}\label{sec-exemplo-subsubsubsection}
+
+% Esta é uma seção de quinto nível. Ela é produzida com o seguinte comando:
+
+% \begin{verbatim}
+% \subsubsubsection{Esta é uma subseção de quinto
+% nível}\label{sec-exemplo-subsubsubsection}
+% \end{verbatim}
+
+% \subsubsubsection{Esta é outra subseção de quinto nível}\label{sec-exemplo-subsubsubsection-outro}
+
+% Esta é outra seção de quinto nível.
+
+
+% \paragraph{Este é um parágrafo numerado}\label{sec-exemplo-paragrafo}
+
+% Este é um exemplo de parágrafo nomeado. Ele é produzido com o comando de
+% parágrafo:
+
+% \begin{verbatim}
+% \paragraph{Este é um parágrafo nomeado}\label{sec-exemplo-paragrafo}
+% \end{verbatim}
+
+% A numeração entre parágrafos numerados e subsubsubseções são contínuas.
+
+% \paragraph{Esta é outro parágrafo numerado}\label{sec-exemplo-paragrafo-outro}
+
+% Este é outro parágrafo nomeado.
+
+% % ---
+% \subsection{Este é um exemplo de nome de subseção longa que se aplica a seções e demais divisões do documento. Ele deve estar alinhado à esquerda e a segunda e demais linhas devem iniciar logo abaixo da primeira palavra da primeira linha} 
+
+% Observe que o alinhamento do título obedece esta regra também no sumário.
+	
+
+
+
+
+
+

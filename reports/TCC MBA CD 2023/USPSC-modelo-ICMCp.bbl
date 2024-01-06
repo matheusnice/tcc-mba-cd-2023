@@ -1,0 +1,263 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Abououf \textit{et al.} 2023]{Abououf2023}
+\abntrefinfo{Abououf \textit{et al.}}{ABOUOUF \textit{et al.}}{2023}
+{ABOUOUF, M. \textit{et al.} Explainable ai for event and anomaly detection and
+  classification in healthcare monitoring systems.
+\textbf{IEEE Internet of Things Journal}, p.~1--1, 2023.}
+
+\bibitem[Asif \textit{et al.} 2018]{genesdisease}
+\abntrefinfo{Asif \textit{et al.}}{ASIF \textit{et al.}}{2018}
+{ASIF, M. \textit{et al.} Identifying disease genes using machine learning and
+  gene functional similarities, assessed through gene ontology.
+\textbf{PLOS ONE}, Public Library of Science, v.~13, n.~12, p. 1--15, 12 2018.
+Available at: \url{https://doi.org/10.1371/journal.pone.0208626}.}
+
+\bibitem[Barros \textit{et al.} 2016]{barros2016}
+\abntrefinfo{Barros \textit{et al.}}{BARROS \textit{et al.}}{2016}
+{BARROS, R. E.~M. \textit{et al.} Impact of length of stay for first
+  psychiatric admissions on the ratio of readmissions in subsequent years in a
+  large {Brazilian} catchment area.
+\textbf{Social Psychiatry and Psychiatric Epidemiology}, v.~51, n.~4, p.
+  575--587, abr. 2016.
+ISSN 1433-9285.
+Available at: \url{https://doi.org/10.1007/s00127-016-1175-x}.}
+
+\bibitem[Batista and Filho 2019]{mlaplicadosaude}
+\abntrefinfo{Batista and Filho}{BATISTA; FILHO}{2019}
+{BATISTA, A.~F. de M.; FILHO, A. D. P.~C. Machine learning aplicado à saúde.
+Sociedade Brasileira de Computação, 2019.
+Available at:
+  \url{https://sol.sbc.org.br/livros/index.php/sbc/catalog/download/29/95/245-1?inline=1}.}
+
+\bibitem[Brunese \textit{et al.} 2020]{BRUNESE2020105608}
+\abntrefinfo{Brunese \textit{et al.}}{BRUNESE \textit{et al.}}{2020}
+{BRUNESE, L. \textit{et al.} Explainable deep learning for pulmonary disease
+  and coronavirus covid-19 detection from x-rays.
+\textbf{Computer Methods and Programs in Biomedicine}, v.~196, p. 105608, 2020.
+ISSN 0169-2607.
+Available at:
+  \url{https://www.sciencedirect.com/science/article/pii/S0169260720314413}.}
+
+\bibitem[Buitinck \textit{et al.} 2013]{Buitinck}
+\abntrefinfo{Buitinck \textit{et al.}}{BUITINCK \textit{et al.}}{2013}
+{BUITINCK, L. \textit{et al.} {API} design for machine learning software:
+  experiences from the scikit-learn project.
+\textbf{CoRR}, abs/1309.0238, 2013.
+Available at: \url{http://arxiv.org/abs/1309.0238}.}
+
+\bibitem[Cesconetto, Lapa and Calvo 2008]{cesconetto2008}
+\abntrefinfo{Cesconetto, Lapa and Calvo}{CESCONETTO; LAPA; CALVO}{2008}
+{CESCONETTO, A.; LAPA, J. dos S.; CALVO, M. C.~M. Avaliação da eficiência
+  produtiva de hospitais do sus de santa catarina, brasil.
+\textbf{Revista Saúde Pública}, 2008.}
+
+\bibitem[Confalonieri \textit{et al.} 2021]{WagnerBenedikt2021Ahpo}
+\abntrefinfo{Confalonieri \textit{et al.}}{CONFALONIERI \textit{et al.}}{2021}
+{CONFALONIERI, R. \textit{et al.} A historical perspective of explainable
+  artificial intelligence.
+\textbf{Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  John Wiley \& Sons Ltd., v.~11, n.~1, p.~21, 2021.
+ISSN 1942-4787.}
+
+\bibitem[Doshi-Velez and Kim 2017]{doshivelez2017rigorous}
+\abntrefinfo{Doshi-Velez and Kim}{DOSHI-VELEZ; KIM}{2017}
+{DOSHI-VELEZ, F.; KIM, B. \textbf{Towards A Rigorous Science of Interpretable
+  Machine Learning}. 2017.}
+
+\bibitem[Faceli \textit{et al.} 2011]{faceli}
+\abntrefinfo{Faceli \textit{et al.}}{FACELI \textit{et al.}}{2011}
+{FACELI, K. \textit{et al.} \textbf{Inteligência artificial: uma abordagem de
+  aprendizado de máquina}. [\textit{S.l.: s.n.}]: LTC, 2011.}
+
+\bibitem[F{\'a}vero \textit{et al.} 2009]{favero}
+\abntrefinfo{F{\'a}vero \textit{et al.}}{F{\'A}VERO \textit{et al.}}{2009}
+{F{\'A}VERO, L. P.~L. \textit{et al.} \textbf{Análise de dados: modelagem
+  multivariada para tomada de decisões}. [\textit{S.l.: s.n.}]: Elsevier,
+  2009.}
+
+\bibitem[Fernandes \textit{et al.} 2021]{fernandes2021multipurpose}
+\abntrefinfo{Fernandes \textit{et al.}}{FERNANDES \textit{et al.}}{2021}
+{FERNANDES, F.~T. \textit{et al.} A multipurpose machine learning approach to
+  predict covid-19 negative prognosis in s{\~a}o paulo, brazil.
+\textbf{Scientific reports}, Nature Publishing Group, v.~11, n.~1, p. 1--11,
+  2021.}
+
+\bibitem[Filho 2015]{chiavegatto2015}
+\abntrefinfo{Filho}{FILHO}{2015}
+{FILHO, A. D.~P. gatto. Uso de big data em saúde no brasil: perspectivas para
+  um futuro próximo.
+\textbf{Epidemiologia e Serviços de Saúde}, SciELO Public Health, v.~24, p.
+  325--332, 2015.}
+
+\bibitem[Friedman 2000]{friedman2000}
+\abntrefinfo{Friedman}{FRIEDMAN}{2000}
+{FRIEDMAN, J. Greedy function approximation: A gradient boosting machine.
+\textbf{The Annals of Statistics}, v.~29, 11 2000.}
+
+\bibitem[G{\'e}ron 2022]{geron2022hands}
+\abntrefinfo{G{\'e}ron}{G{\'E}RON}{2022}
+{G{\'E}RON, A. \textbf{Hands-On Machine Learning with Scikit-Learn, Keras, and
+  TensorFlow, 3rd Edition}. [\textit{S.l.: s.n.}]: O'Reilly Media, Inc., 2022.
+ISBN 9781098125974.}
+
+\bibitem[GhoshRoy, Alvi and Santosh 2023]{healthcare11070929}
+\abntrefinfo{GhoshRoy, Alvi and Santosh}{GHOSHROY; ALVI; SANTOSH}{2023}
+{GHOSHROY, D.; ALVI, P.~A.; SANTOSH, K. Unboxing industry-standard ai models
+  for male fertility prediction with shap.
+\textbf{Healthcare}, v.~11, n.~7, 2023.
+ISSN 2227-9032.
+Available at: \url{https://www.mdpi.com/2227-9032/11/7/929}.}
+
+\bibitem[Hastie, Tibshirani and Friedman 2009]{trevorHastie}
+\abntrefinfo{Hastie, Tibshirani and Friedman}{HASTIE; TIBSHIRANI;
+  FRIEDMAN}{2009}
+{HASTIE, T.; TIBSHIRANI, R.; FRIEDMAN, J. \textbf{The Elements of Statistical
+  Learning}. 2. ed. [\textit{S.l.: s.n.}]: Springer New York Inc., 2009.
+ISBN 9780387848587.}
+
+\bibitem[Ho 1995]{RandomForests}
+\abntrefinfo{Ho}{HO}{1995}
+{HO, T.~K. Random decision forests. \textit{In}:  \textbf{Proceedings of 3rd
+  International Conference on Document Analysis and Recognition}.
+  [\textit{S.l.: s.n.}], 1995. v.~1, p. 278--282 vol.1.}
+
+\bibitem[Kharrat \textit{et al.} 2020]{FeatureSensitivity}
+\abntrefinfo{Kharrat \textit{et al.}}{KHARRAT \textit{et al.}}{2020}
+{KHARRAT, F. G.~Z. \textit{et al.} Feature sensitivity criterion-based sampling
+  strategy from the optimization based on phylogram analysis (fs-opa) and cox
+  regression applied to mental disorder datasets.
+\textbf{PLOS ONE}, Public Library of Science, v.~15, n.~7, p. 1--25, 07 2020.
+Available at: \url{https://doi.org/10.1371/journal.pone.0235147}.}
+
+\bibitem[Kim and Kim 2022]{KIM2022103677}
+\abntrefinfo{Kim and Kim}{KIM; KIM}{2022}
+{KIM, Y.; KIM, Y. Explainable heat-related mortality with random forest and
+  shapley additive explanations (shap) models.
+\textbf{Sustainable Cities and Society}, v.~79, p. 103677, 2022.
+ISSN 2210-6707.
+Available at:
+  \url{https://www.sciencedirect.com/science/article/pii/S2210670722000117}.}
+
+\bibitem[Kleinbaum and Klein 2010]{logreg}
+\abntrefinfo{Kleinbaum and Klein}{KLEINBAUM; KLEIN}{2010}
+{KLEINBAUM, D.~G.; KLEIN, M. \textbf{Logistic Regression}. 3. ed.
+  [\textit{S.l.: s.n.}]: Springer New York, NY, 2010.
+ISBN 9781441917416.}
+
+\bibitem[Lipton 2017]{lipton2017mythos}
+\abntrefinfo{Lipton}{LIPTON}{2017}
+{LIPTON, Z.~C. \textbf{The Mythos of Model Interpretability}. 2017.}
+
+\bibitem[Loreto, Lisboa and Moreira 2020]{LORETO2020103636}
+\abntrefinfo{Loreto, Lisboa and Moreira}{LORETO; LISBOA; MOREIRA}{2020}
+{LORETO, M.; LISBOA, T.; MOREIRA, V.~P. Early prediction of icu readmissions
+  using classification algorithms.
+\textbf{Computers in Biology and Medicine}, v.~118, p. 103636, 2020.
+ISSN 0010-4825.
+Available at:
+  \url{https://www.sciencedirect.com/science/article/pii/S0010482520300329}.}
+
+\bibitem[Mesko and Gorog 2020]{ShortGuide2020}
+\abntrefinfo{Mesko and Gorog}{MESKO; GOROG}{2020}
+{MESKO, B.; GOROG, M. A short guide for medical professionals in the era of
+  artificial intelligence.
+\textbf{npj Digital Medicine}, Nature Publishing Group, v.~3, p.~126, 2020.}
+
+\bibitem[Miyoshi \textit{et al.} 2018]{eHealth}
+\abntrefinfo{Miyoshi \textit{et al.}}{MIYOSHI \textit{et al.}}{2018}
+{MIYOSHI, N. S.~B. \textit{et al.} An ehealth platform for the support of a
+  brazilian regional network of mental health care (ehealth-interop):
+  development of an interoperability platform for mental care integration.
+\textbf{JMIR Mental Health}, 2018.}
+
+\bibitem[Obermeyer and Lee 2017]{obermeyer2017}
+\abntrefinfo{Obermeyer and Lee}{OBERMEYER; LEE}{2017}
+{OBERMEYER, Z.; LEE, T.~H. Lost in thought—the limits of the human mind and
+  the future of medicine.
+\textbf{New England Journal of Medicine}, Mass Medical Soc, v.~377, n.~13, p.
+  1209--1211, 2017.}
+
+\bibitem[Raschka and Mirjalili 2017]{Raschka}
+\abntrefinfo{Raschka and Mirjalili}{RASCHKA; MIRJALILI}{2017}
+{RASCHKA, S.; MIRJALILI, V. \textbf{Python Machine Learning}. 2. ed.
+  [\textit{S.l.: s.n.}]: Packt, 2017.
+ISBN 9781787125933.}
+
+\bibitem[Ribeiro, Singh and Guestrin 2016]{ribeiro2016modelagnostic}
+\abntrefinfo{Ribeiro, Singh and Guestrin}{RIBEIRO; SINGH; GUESTRIN}{2016}
+{RIBEIRO, M.~T.; SINGH, S.; GUESTRIN, C. \textbf{Model-Agnostic
+  Interpretability of Machine Learning}. 2016.}
+
+\bibitem[Rosa \textit{et al.}
+  2023]{rosa_galdamez_souza_melo_villarinho_leal_2023}
+\abntrefinfo{Rosa \textit{et al.}}{ROSA \textit{et al.}}{2023}
+{ROSA, A. C. F.~d. \textit{et al.} Uso de técnicas de aprendizado de máquina
+  para classificação de fatores que influenciam a ocorrência de dermatites
+  ocupacionais.
+\textbf{Revista Brasileira de Saúde Ocupacional}, Fundação Jorge Duprat
+  Figueiredo de Segurança e Medicina do Trabalho - FUNDACENTRO, v.~48, 2023.
+ISSN 0303-7657.
+Available at: \url{https://doi.org/10.1590/2317-6369/31620pt2023v48e4}.}
+
+\bibitem[Santos \textit{et al.} 2019]{SantosHellenGeremiasdos2019Mlpa}
+\abntrefinfo{Santos \textit{et al.}}{SANTOS \textit{et al.}}{2019}
+{SANTOS, H. G.~d. \textit{et al.} Machine learning para análises preditivas em
+  saúde: exemplo de aplicação para predizer óbito em idosos de são paulo,
+  brasil.
+\textbf{Cadernos de saúde pública}, Escola Nacional de Saúde Pública Sergio
+  Arouca, Fundação Oswaldo Cruz, v.~35, n.~7, 2019.
+ISSN 0102-311X.}
+
+\bibitem[Seltzer and Zhang 2009]{SeltzerZ09}
+\abntrefinfo{Seltzer and Zhang}{SELTZER; ZHANG}{2009}
+{SELTZER, M.~L.; ZHANG, L. The data deluge: Challenges and opportunities of
+  unlimited data in statistical signal processing.
+{IEEE}, p. 3701--3704, 2009.
+Available at: \url{https://doi.org/10.1109/ICASSP.2009.4960430}.}
+
+\bibitem[Stiglic \textit{et al.} 2014]{Stiglic2014}
+\abntrefinfo{Stiglic \textit{et al.}}{STIGLIC \textit{et al.}}{2014}
+{STIGLIC, G. \textit{et al.} Pediatric readmission classification using stacked
+  regularized logistic regression models.
+\textbf{AMIA Annu Symp Proc}, p. 1072--1081, 2014.}
+
+\bibitem[Wang \textit{et al.} 2021]{WANG2021351}
+\abntrefinfo{Wang \textit{et al.}}{WANG \textit{et al.}}{2021}
+{WANG, B. \textit{et al.} Predictive classification of icu readmission using
+  weight decay random forest.
+\textbf{Future Generation Computer Systems}, v.~124, p. 351--360, 2021.
+ISSN 0167-739X.
+Available at:
+  \url{https://www.sciencedirect.com/science/article/pii/S0167739X21002065}.}
+
+\bibitem[Wang 2019]{Wang_2019}
+\abntrefinfo{Wang}{WANG}{2019}
+{WANG, L. Research and implementation of machine learning classifier based on
+  knn.
+\textbf{IOP Conference Series: Materials Science and Engineering}, IOP
+  Publishing, v.~677, n.~5, p. 052038, dec 2019.
+Available at: \url{https://dx.doi.org/10.1088/1757-899X/677/5/052038}.}
+
+\bibitem[{Wikipedia contributors} 2023]{wiki}
+\abntrefinfo{{Wikipedia contributors}}{{Wikipedia contributors}}{2023}
+{{Wikipedia contributors}. \textbf{Support vector machine --- {Wikipedia}{,}
+  The Free Encyclopedia}. 2023.
+[Online; accessed 6-January-2024].
+Available at:
+  \url{https://en.wikipedia.org/w/index.php?title=Support\_vector\_machine&oldid=1190739318}.}
+
+\bibitem[Yin \textit{et al.} 2023]{CDCWound}
+\abntrefinfo{Yin \textit{et al.}}{YIN \textit{et al.}}{2023}
+{YIN, V. \textit{et al.} Centers for disease control (cdc) wound classification
+  is prognostic of 30-day readmission following surgery.
+\textbf{World Journal of Surgery}, v.~47, n.~10, p. 2392--2400, 2023.
+Available at:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1007/s00268-023-07093-3}.}
+
+\end{thebibliography}
