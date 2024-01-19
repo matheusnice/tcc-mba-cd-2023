@@ -86,13 +86,25 @@ As Florestas Aleatórias (do inglês \textit{Random Forests}) e \textit{Gradient
 	\caption{\label{img:rfexample}Ilustração do algoritmo \textit{Random Forest}.}
 	\includegraphics[scale=0.7]{USPSC-img/random_forest_example.pdf}
 	\begin{center}
-		Fonte: Autor (2023)
+		Fonte: Adaptado de \citeonline{mlaplicadosaude}
 	\end{center}
 \end{figure}
 
 Com o objetivo de melhorar a precisão das previsões das árvores de decisão, o algoritmo \textit{Gradient Boosted Trees} \cite{friedman2000} utiliza a estratégia de \textit{boosting}. Em termos mais detalhados, o processo de \textit{boosting} geralmente começa com um modelo base simples, como uma árvore de decisão rasa. Este modelo é treinado no conjunto de dados e usado para fazer previsões. Em seguida, os exemplos que foram classificados incorretamente ou para os quais as previsões tiveram grandes erros são ponderados mais fortemente no próximo modelo a ser treinado. Este próximo modelo é treinado para se concentrar nos exemplos que foram mal classificados pelo modelo anterior, e o processo é repetido \cite{friedman2000}.
 
 Ainda segundo \citeonline{friedman2000}, a técnica de \textit{Gradient Boosting} proposta pelo autor permitiu avanços importantes na capacidade de lidar com problemas complexos de previsão e classificação. Essa abordagem influenciou diretamente o desenvolvimento de algoritmos populares, como \textit{XGBoost} e \textit{LightGBM}, que são amplamente utilizados em competições de ciência de dados e em aplicações do mundo real devido à sua eficácia e desempenho.
+
+\section{Inteligência Artificial Explicável}
+
+A Inteligência Artificial Explicável refere-se à capacidade de compreender e explicar as decisões e previsões dos modelos de inteligência artificial. A explicabilidade é crucial para estabelecer a confiança do usuário, fornecer insights sobre como melhorar o modelo e compreender o processo que está sendo modelado. A capacidade de interpretar corretamente a saída de um modelo de previsão é extremamente importante, especialmente em contextos nos quais modelos complexos e de alto desempenho são utilizados \cite{Shap2017}. Nesta seção, será fornecida uma breve exposição do método de XAI aplicado neste trabalho, o \textit{SHapley Additive exPlanations} (SHAP).
+
+\subsection{\textit{SHapley Additive exPlanations} (SHAP)}
+
+O SHAP \cite{Shap2017} unifica seis métodos existentes de interpretação de predições: LIME, DeepLIFT, Layer-wise Relevance Propagation (LRP), Shapley sampling values, SmoothGrad e Integrated Gradients.
+
+O LIME (Local Interpretable Model-Agnostic Explanations) \cite{Lime2016} é um método que explica as previsões de um modelo complexo construindo um modelo localmente interpretável em torno da previsão. O DeepLIFT \cite{Deeplift} compara a ativação de cada variável na previsão atual com a ativação média da variável em todas as previsões. O LRP \cite{LRP2015} atribui a importância de cada variável para uma previsão propagando a relevância da saída do modelo de volta para as entradas. O Shapley sampling values \cite{Strumbelj2014} amostra aleatoriamente subconjuntos de variáveis e calcula a contribuição média de cada variável para a previsão. O SmoothGrad \cite{SmoothGrad} suaviza as entradas do modelo para reduzir o ruído e, em seguida, calcula a importância de cada variável para uma previsão. O Integrated Gradients \cite{IntegratedGradients} integra a contribuição de cada variável para uma previsão ao longo de um caminho suave entre a entrada atual e uma entrada de referência.
+
+O SHAP unifica esses métodos por meio da introdução do conceito de "modelo de explicação", que representa uma aproximação interpretável do modelo original. Além disso, fornece resultados teóricos que asseguram a existência de uma solução única na classe de métodos aditivos, atendendo a um conjunto de propriedades desejáveis, incluindo consistência, localidade e completude. O SHAP propõe uma nova medida de importância de variáveis chamada \textit{SHAP value}, a única medida aditiva que satisfaz essas propriedades. Esses valores, conforme demonstrado pelo SHAP, estão alinhados com a intuição humana e são eficazes na discriminação entre classes de saída do modelo \cite{Shap2017}.
 
 \section{Trabalhos de classificação na área médica}\label{sec-context}
 

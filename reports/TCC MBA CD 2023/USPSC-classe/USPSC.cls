@@ -378,7 +378,7 @@
 % ---
 \newcommand{\ABNTEXfontereduzida}{\footnotesize}
 % ---
-
+\newcommand{\q}[1]{``#1''}
 % ---
 % abnTeX2 name
 \newcommand{\abnTeX}{abn\TeX2}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  6 JAN 2024 18:42
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  18 JAN 2024 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1644,10 +1644,10 @@ Package: ABNT6023-2018
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 167.
+e 166.
 
 (./USPSC-pre-textual-ICMC.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 196.
+Package hyperref Info: Option `colorlinks' set `true' on input line 195.
 \USPSC-modelo-ICMCp@idxfile=\write6
 \openout6 = `USPSC-modelo-ICMCp.idx'.
 
@@ -1721,43 +1721,52 @@ Package chemmacros Info: Using float defining method `float'.
 \@float@every@scheme=\toks56
 \c@scheme=\count454
 
-(./USPSC-modelo-ICMCp.aux (./USPSC-TA-PreTextual/USPSC-CapaICMC.aux))
+(./USPSC-modelo-ICMCp.aux (./USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
+(./USPSC-TA-Textual/USPSC-Cap1-Introducao.aux)
+(./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux
+
+LaTeX Warning: Label `sec-context' multiply defined.
+
+
+LaTeX Warning: Label `sec-context' multiply defined.
+
+) (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux))
 \openout1 = `USPSC-modelo-ICMCp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-16.
+15.
 
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-Package hyperref Info: Link coloring ON on input line 216.
-LaTeX Info: Redefining \degres on input line 216.
-LaTeX Info: Redefining \up on input line 216.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+Package hyperref Info: Link coloring ON on input line 215.
+LaTeX Info: Redefining \degres on input line 215.
+LaTeX Info: Redefining \up on input line 215.
 \myptabbox=\box154
 \myptabboxwidth=\skip288
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 216.
+(lastpage)             ! on input line 215.
 
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/translations/translations-b
 asic-dictionary-brazil.trsl
@@ -1765,7 +1774,7 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 216.
+or `brazil'. on input line 215.
 
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/translations/translations-b
 asic-dictionary-spanish.trsl
@@ -1773,7 +1782,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 216.
+or `spanish'. on input line 215.
 
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/translations/translations-b
 asic-dictionary-french.trsl
@@ -1781,7 +1790,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 216.
+or `french'. on input line 215.
 
 (c:/Program Files/texlive/2022/texmf-dist/tex/latex/translations/translations-b
 asic-dictionary-english.trsl
@@ -1789,15 +1798,15 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 216.
+or `english'. on input line 215.
 
-Package chemgreek Info: Activating mapping `default' on line 216.
+Package chemgreek Info: Activating mapping `default' on line 215.
 
-LaTeX Info: Redefining \microtypecontext on input line 216.
-Package microtype Info: Applying patch `item' on input line 216.
-Package microtype Info: Applying patch `toc' on input line 216.
-Package microtype Info: Applying patch `eqnum' on input line 216.
-Package microtype Info: Applying patch `footnote' on input line 216.
+LaTeX Info: Redefining \microtypecontext on input line 215.
+Package microtype Info: Applying patch `item' on input line 215.
+Package microtype Info: Applying patch `toc' on input line 215.
+Package microtype Info: Applying patch `eqnum' on input line 215.
+Package microtype Info: Applying patch `footnote' on input line 215.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1899,22 +1908,22 @@ File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []\T1/lmr/m/n/12 Monografia apresentada ao Centro de
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 255--255
+Underfull \hbox (badness 1292) in paragraph at lines 254--254
 \T1/lmr/m/n/12 Computação, Universidade de São Paulo
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 255--255
+Underfull \hbox (badness 1253) in paragraph at lines 254--254
 \T1/lmr/m/n/12 - ICMC/USP, como parte dos requisitos
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 255--255
+Underfull \hbox (badness 4479) in paragraph at lines 254--254
 []\T1/lmr/m/n/12 Orientador: Prof. Dr. Rodrigo Colnago
  []
 
@@ -1944,12 +1953,12 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
  [4]
-Underfull \hbox (badness 2173) in paragraph at lines 288--288
+Underfull \hbox (badness 2173) in paragraph at lines 287--287
 []\T1/lmr/m/n/12 Monograph presented to the Centro de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\T1/lmr/m/n/12 Advisor: Prof. Dr. Rodrigo Colnago
  []
 
@@ -1986,4 +1995,318 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [7
+ [7]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [8
+
+]
+\openout2 = `USPSC-TA-Textual/USPSC-Cap1-Introducao.aux'.
+
+
+(./USPSC-TA-Textual/USPSC-Cap1-Introducao.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [9
+
+
+]
+File: USPSC-img/fluxo-geral-trabalho.pdf Graphic file (type pdf)
+<use USPSC-img/fluxo-geral-trabalho.pdf>
+)
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[10]
+\openout2 = `USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux'.
+
+ (./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.tex
+Overfull \hbox (5.3148pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/12 di-zado. Exis-tem sis-te-mas su-per-vi-si-o-na-dos, não su-per-v
+i-si-o-na-dos, semi-supervisionados, auto-
+ []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[11
+
+
+
+
+]
+Missing character: There is no “ ("201C) in font ec-lmr12!
+Missing character: There is no ” ("201D) in font ec-lmr12!
+File: USPSC-img/funcao-logistica.png Graphic file (type bmp)
+<USPSC-img/funcao-logistica.png>
+
+Underfull \vbox (badness 2359) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [12]
+File: USPSC-img/Kernel_Machine.png Graphic file (type bmp)
+<USPSC-img/Kernel_Machine.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [13]
+File: USPSC-img/random_forest_example.pdf Graphic file (type pdf)
+<use USPSC-img/random_forest_example.pdf>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[14]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [16]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [18])
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[19]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [20]
+\openout2 = `USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux'.
+
+ (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 71.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [21
+
+
+
+
+]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[22]
+Overfull \hbox (32.59741pt too wide) in paragraph at lines 82--83
+[]\T1/lmr/m/n/12 A bi-bli-o-teca Scikit-Learn ([][]BUI-TINCK \T1/lmr/m/it/12 et
+ al.[][]\T1/lmr/m/n/12 , [][]2013[][]) foi uti-li-zada para o pré-processamento
+,
+ []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[23]
+File: USPSC-img/criacao_target.pdf Graphic file (type pdf)
+<use USPSC-img/criacao_target.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [24]
+File: USPSC-img/fluxo-limpeza.pdf Graphic file (type pdf)
+<use USPSC-img/fluxo-limpeza.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [25]
+File: USPSC-img/preprocessamento.pdf Graphic file (type pdf)
+<use USPSC-img/preprocessamento.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [26]
+File: USPSC-img/Curva ROC - GradientBoosting.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - GradientBoosting.png>
+File: USPSC-img/Curva ROC - KNN.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - KNN.png>
+File: USPSC-img/Curva ROC - LGBM.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - LGBM.png>
+File: USPSC-img/Curva ROC - LogisticRegression.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - LogisticRegression.png>
+File: USPSC-img/Curva ROC - RandomForest.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - RandomForest.png>
+File: USPSC-img/Curva ROC - SVM.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - SVM.png>
+File: USPSC-img/Curva ROC - XGB.png Graphic file (type bmp)
+<USPSC-img/Curva ROC - XGB.png>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[27]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [28]
+File: USPSC-img/hiperparametros.pdf Graphic file (type pdf)
+<use USPSC-img/hiperparametros.pdf>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [29]
+File: USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png Graphic file 
+(type bmp)
+<USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png>
+File: USPSC-img/curva_roc_modelos_com_tunagem_hiperparametros.png Graphic file 
+(type bmp)
+<USPSC-img/curva_roc_modelos_com_tunagem_hiperparametros.png>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [30]
+File: USPSC-img/curva_roc_modelos_teste.png Graphic file (type bmp)
+<USPSC-img/curva_roc_modelos_teste.png>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [31]
+File: USPSC-img/comparacao_metricas_por_modelo.png Graphic file (type bmp)
+<USPSC-img/comparacao_metricas_por_modelo.png>
+
+Overfull \hbox (21.98444pt too wide) in paragraph at lines 343--344
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+50.
+(c:/Program Files/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [32]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[33] (./USPSC-modelo-ICMCp.bbl
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [34
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+bibitemlist
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[35]
+Missing character: There is no — ("2014) in font ec-lmr12!
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[36]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [37]) 
+AED: lastpage setting LastPage
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[38]
+\tf@toc=\write7
+\openout7 = `USPSC-modelo-ICMCp.toc'.
+
+ (./USPSC-modelo-ICMCp.aux (./USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
+(./USPSC-TA-Textual/USPSC-Cap1-Introducao.aux)
+(./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux)
+(./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 42755 strings out of 475865
+ 926620 string characters out of 5799411
+ 1351037 words of memory out of 5000000
+ 63072 multiletter control sequences out of 15000+600000
+ 538121 words of font info for 71 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,17n,94p,1306b,1128s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on USPSC-modelo-ICMCp.pdf (38 pages).

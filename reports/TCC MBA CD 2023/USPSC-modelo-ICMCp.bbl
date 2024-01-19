@@ -18,6 +18,13 @@
 \textbf{PLOS ONE}, Public Library of Science, v.~13, n.~12, p. 1--15, 12 2018.
 Available at: \url{https://doi.org/10.1371/journal.pone.0208626}.}
 
+\bibitem[Bach \textit{et al.} 2015]{LRP2015}
+\abntrefinfo{Bach \textit{et al.}}{BACH \textit{et al.}}{2015}
+{BACH, S. \textit{et al.} On pixel-wise explanations for non-linear classifier
+  decisions by layer-wise relevance propagation.
+\textbf{PLOS ONE}, Public Library of Science, v.~10, n.~7, p. 1--46, 07 2015.
+Available at: \url{https://doi.org/10.1371/journal.pone.0130140}.}
+
 \bibitem[Barros \textit{et al.} 2016]{barros2016}
 \abntrefinfo{Barros \textit{et al.}}{BARROS \textit{et al.}}{2016}
 {BARROS, R. E.~M. \textit{et al.} Impact of length of stay for first
@@ -163,6 +170,14 @@ ISSN 0010-4825.
 Available at:
   \url{https://www.sciencedirect.com/science/article/pii/S0010482520300329}.}
 
+\bibitem[Lundberg and Lee 2017]{Shap2017}
+\abntrefinfo{Lundberg and Lee}{LUNDBERG; LEE}{2017}
+{LUNDBERG, S.~M.; LEE, S.-I. A unified approach to interpreting model
+  predictions.
+Curran Associates, Inc., p. 4765--4774, 2017.
+Available at:
+  \url{http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf}.}
+
 \bibitem[Mesko and Gorog 2020]{ShortGuide2020}
 \abntrefinfo{Mesko and Gorog}{MESKO; GOROG}{2020}
 {MESKO, B.; GOROG, M. A short guide for medical professionals in the era of
@@ -190,9 +205,16 @@ Available at:
 ISBN 9781787125933.}
 
 \bibitem[Ribeiro, Singh and Guestrin 2016]{ribeiro2016modelagnostic}
-\abntrefinfo{Ribeiro, Singh and Guestrin}{RIBEIRO; SINGH; GUESTRIN}{2016}
+\abntrefinfo{Ribeiro, Singh and Guestrin}{RIBEIRO; SINGH; GUESTRIN}{2016a}
 {RIBEIRO, M.~T.; SINGH, S.; GUESTRIN, C. \textbf{Model-Agnostic
   Interpretability of Machine Learning}. 2016.}
+
+\bibitem[Ribeiro, Singh and Guestrin 2016]{Lime2016}
+\abntrefinfo{Ribeiro, Singh and Guestrin}{RIBEIRO; SINGH; GUESTRIN}{2016b}
+{RIBEIRO, M.~T.; SINGH, S.; GUESTRIN, C. "why should {I} trust you?":
+  Explaining the predictions of any classifier.
+\textbf{CoRR}, abs/1602.04938, 2016.
+Available at: \url{http://arxiv.org/abs/1602.04938}.}
 
 \bibitem[Rosa \textit{et al.}
   2023]{rosa_galdamez_souza_melo_villarinho_leal_2023}
@@ -221,11 +243,38 @@ ISSN 0102-311X.}
 {IEEE}, p. 3701--3704, 2009.
 Available at: \url{https://doi.org/10.1109/ICASSP.2009.4960430}.}
 
+\bibitem[Shrikumar \textit{et al.} 2016]{Deeplift}
+\abntrefinfo{Shrikumar \textit{et al.}}{SHRIKUMAR \textit{et al.}}{2016}
+{SHRIKUMAR, A. \textit{et al.} Not just a black box: Learning important
+  features through propagating activation differences.
+\textbf{CoRR}, abs/1605.01713, 2016.
+Available at: \url{http://arxiv.org/abs/1605.01713}.}
+
+\bibitem[Smilkov \textit{et al.} 2017]{SmoothGrad}
+\abntrefinfo{Smilkov \textit{et al.}}{SMILKOV \textit{et al.}}{2017}
+{SMILKOV, D. \textit{et al.} Smoothgrad: removing noise by adding noise.
+\textbf{CoRR}, abs/1706.03825, 2017.
+Available at: \url{http://arxiv.org/abs/1706.03825}.}
+
 \bibitem[Stiglic \textit{et al.} 2014]{Stiglic2014}
 \abntrefinfo{Stiglic \textit{et al.}}{STIGLIC \textit{et al.}}{2014}
 {STIGLIC, G. \textit{et al.} Pediatric readmission classification using stacked
   regularized logistic regression models.
 \textbf{AMIA Annu Symp Proc}, p. 1072--1081, 2014.}
+
+\bibitem[{\v{S}}trumbelj and Kononenko 2014]{Strumbelj2014}
+\abntrefinfo{{\v{S}}trumbelj and Kononenko}{{\v{S}}TRUMBELJ; KONONENKO}{2014}
+{{\v{S}}TRUMBELJ, E.; KONONENKO, I. Explaining prediction models and individual
+  predictions with feature contributions.
+\textbf{Knowledge and Information Systems}, v.~41, n.~3, p. 647--665, Dec 2014.
+ISSN 0219-3116.
+Available at: \url{https://doi.org/10.1007/s10115-013-0679-x}.}
+
+\bibitem[Sundararajan, Taly and Yan 2017]{IntegratedGradients}
+\abntrefinfo{Sundararajan, Taly and Yan}{SUNDARARAJAN; TALY; YAN}{2017}
+{SUNDARARAJAN, M.; TALY, A.; YAN, Q. Axiomatic attribution for deep networks.
+\textbf{CoRR}, abs/1703.01365, 2017.
+Available at: \url{http://arxiv.org/abs/1703.01365}.}
 
 \bibitem[Wang \textit{et al.} 2021]{WANG2021351}
 \abntrefinfo{Wang \textit{et al.}}{WANG \textit{et al.}}{2021}
