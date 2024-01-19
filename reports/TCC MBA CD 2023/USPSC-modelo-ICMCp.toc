@@ -27,8 +27,7 @@
 \contentsline {subsubsection}{\numberline {3.1.5.1}Treinamento sem tunagem de hiperparâmetros}{27}{subsubsection.3.1.5.1}%
 \contentsline {subsubsection}{\numberline {3.1.5.2}Treinamento com tunagem de hiperparâmetros}{29}{subsubsection.3.1.5.2}%
 \contentsline {subsubsection}{\numberline {3.1.5.3}Validação no conjunto de teste}{31}{subsubsection.3.1.5.3}%
-\contentsline {subsection}{\numberline {3.1.6}Análise de variáveis mais importantes}{32}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.1.7}Apresentação dos resultados}{32}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.6}Análise de variáveis mais importantes}{34}{subsection.3.1.6}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{35}{section*.6}%

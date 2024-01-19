@@ -337,7 +337,7 @@ A \autoref{tab:validacaoTeste} apresenta os resultados da validação no conjunt
 
 A \autoref{img:comparacaoMetricas} apresenta um resumo abrangente, comparando todas as métricas em todas as fases de validação, incluindo treinamento sem e com tunagem, bem como no conjunto de teste, para todos os modelos.
 
-\begin{figure}[htb]
+\begin{figure}[H]
 	\centering
 	\caption{\label{img:comparacaoMetricas}Comparação das métricas de desempenho em diferentes etapas de validação (treinamento sem e com tunagem, e teste) para os modelos}
 	\includegraphics[scale=0.5]{USPSC-img/comparacao_metricas_por_modelo.png}
@@ -346,11 +346,54 @@ A \autoref{img:comparacaoMetricas} apresenta um resumo abrangente, comparando to
 	\end{center}
 \end{figure}
 
-Também é possível observar, na figura, a variação percentual das métricas no conjunto de teste em comparação com as métricas na etapa de tunagem. Com exceção do classificador KNN, todos os modelos apresentaram uma degradação nas métricas. Notavelmente, o LogisticRegression foi o modelo com a pior capacidade de generalização, registrando uma variação de aproximadamente -8\% em todas as métricas. Em contrapartida, os modelos XGB e LGBM sofreram as menores quedas, mantendo-se próximos do valor de -4\%. Considerando esses resultados, ambos os modelos se destacam como candidatos viáveis para a escolha do melhor modelo. Vale ressaltar que na próxima etapa deste trabalho, focada na análise de quais variáveis são mais importantes para o \textit{output} do modelo, será conduzida exclusivamente com o modelo selecionado, finalizando assim a correlação desses resultados com a etapa subsequente.
+Também é possível observar, na \autoref{img:variacaoMetricas}, a variação percentual das métricas no conjunto de teste em comparação com as métricas na etapa de tunagem. Com exceção do classificador KNN, todos os modelos apresentaram uma degradação nas métricas. Notavelmente, o LogisticRegression foi o modelo com a pior capacidade de generalização, registrando uma variação de aproximadamente -8\% em todas as métricas. Em contrapartida, os modelos XGB e LGBM sofreram as menores quedas, mantendo-se próximos do valor de -4\%. Considerando esses resultados, ambos os classificadores se destacam como candidatos viáveis para a escolha do melhor modelo. Optou-se por selecionar o modelo LGBM, que será utilizado na análise subsequente das variáveis mais importantes, empregando a abordagem SHAP.
+
+\begin{figure}[H]
+	\centering
+	\caption{\label{img:variacaoMetricas}Variação percentual das métricas no conjunto de teste em comparação com as métricas na etapa de tunagem}
+	\includegraphics[scale=0.7]{USPSC-img/variacao_pct_metricas_teste_por_modelo.png}
+	\begin{center}
+		Fonte: Autor (2023)
+	\end{center}
+\end{figure}
 
 \subsection{Análise de variáveis mais importantes}
-Por fim, será utilizada a biblioteca \texttt{shap} para avaliar o impacto das variáveis no processo de tomada de decisões dos modelos. Isso permitirá a identificação de quais características estão mais fortemente associadas a casos de reinternação hospitalar, fornecendo uma visão detalhada das relações entre variáveis e resultados.
 
-\subsection{Apresentação dos resultados}
-Os resultados obtidos após o término dos processos mencionados na seção TAL serão apresentados de maneira clara e concisa, utilizando tabelas e gráficos informativos. As tabelas destacarão métricas de desempenho, como precisão, \textit{recall}, F1-score e área sob a curva ROC, para cada modelo testado. Além disso, serão fornecidos gráficos que ilustrarão a importância relativa das variáveis no processo de previsão, com base nas análises SHAP.
+O gráfico beeswarm, em relação ao SHAP (SHapley Additive exPlanations), é uma ferramenta valiosa para a interpretação de modelos de aprendizado de máquina. O SHAP é uma técnica que atribui um valor Shapley a cada recurso para cada previsão, ajudando a entender como cada recurso contribui individualmente para a saída do modelo. Aqui está uma explicação detalhada de como interpretar um gráfico beeswarm gerado pelo pacote SHAP:
 
+Contexto Geral:
+SHAP Values:
+O SHAP Value para uma observação específica mede a contribuição de cada recurso para a diferença entre a previsão do modelo para essa observação e a média das previsões do modelo.
+Ele reflete como cada característica influencia a saída do modelo para uma instância particular.
+Interpretação do Gráfico Beeswarm:
+Eixo Horizontal:
+
+Cada ponto no eixo horizontal representa um SHAP Value para um determinado recurso em uma observação específica.
+O eixo é geralmente dividido em duas partes para representar valores SHAP positivos (contribuindo positivamente para a saída do modelo) e negativos (contribuindo negativamente).
+Distribuição dos Pontos:
+
+A densidade e distribuição dos pontos ao longo do eixo horizontal indicam a frequência com que um valor específico do SHAP ocorre para esse recurso.
+Uma alta densidade em torno de zero sugere que o recurso tem uma contribuição neutra em muitos casos.
+Cor das Pontuações:
+
+A cor dos pontos pode ser usada para indicar o valor da própria característica.
+Isso fornece uma visão adicional de como os valores específicos dessa característica se alinham com as contribuições do SHAP.
+Exemplo Prático:
+Exemplo de Análise:
+
+Se um ponto para a feature "Idade" está à direita, isso sugere que, para essa observação específica, a idade contribuiu positivamente para a previsão do modelo.
+Pontos à esquerda indicariam uma contribuição negativa da idade.
+Dispersão Vertical:
+
+A dispersão vertical dos pontos em torno de um determinado valor de SHAP indica como diferentes instâncias contribuem de maneira semelhante ou diferente para a saída do modelo com relação a esse recurso específico.
+Padrões e Tendências:
+
+Padrões claros e tendências no gráfico podem revelar interações complexas entre diferentes recursos e como elas afetam as previsões do modelo.
+Importância Relativa:
+
+Pontos mais distantes da linha central zero geralmente indicam uma maior importância relativa do recurso para essa previsão específica.
+Comparações Entre Modelos:
+
+O beeswarm é particularmente útil ao comparar SHAP Values entre modelos, ajudando a entender como diferentes algoritmos atribuem importância aos recursos.
+Conclusão:
+Ao interpretar um gráfico beeswarm do SHAP, é crucial considerar o contexto específico do modelo, do domínio do problema e das características individuais. A análise cuidadosa desses gráficos pode fornecer insights profundos sobre como o modelo toma decisões e ajudar a identificar padrões complexos nos dados.
