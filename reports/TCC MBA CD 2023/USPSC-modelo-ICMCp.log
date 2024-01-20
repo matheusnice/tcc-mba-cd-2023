@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  18 JAN 2024 22:00
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  19 JAN 2024 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1722,6 +1722,10 @@ Package chemmacros Info: Using float defining method `float'.
 \c@scheme=\count454
 
 (./USPSC-modelo-ICMCp.aux (./USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
+(./USPSC-TA-PreTextual/USPSC-Dedicatoria.aux)
+(./USPSC-TA-PreTextual/USPSC-Agradecimentos.aux)
+(./USPSC-TA-PreTextual/USPSC-Resumo.aux)
+(./USPSC-TA-PreTextual/USPSC-Abstract.aux)
 (./USPSC-TA-Textual/USPSC-Cap1-Introducao.aux)
 (./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux
 
@@ -1730,7 +1734,8 @@ LaTeX Warning: Label `sec-context' multiply defined.
 
 LaTeX Warning: Label `sec-context' multiply defined.
 
-) (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux))
+) (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux)
+(./USPSC-TA-Textual/USPSC-Cap4-Conclusao.aux))
 \openout1 = `USPSC-modelo-ICMCp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
@@ -1934,24 +1939,24 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 [3
 
 ]
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf, page 1>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf, page 1>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf, page 1>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf, page 1>
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-File: USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf Graphic file (type pdf)
-<use USPSC-TA-PreTextual/USPSC-fichacatalografica.pdf, page 1>
+File: USPSC-TA-PreTextual/fichacatalografica.pdf Graphic file (type pdf)
+<use USPSC-TA-PreTextual/fichacatalografica.pdf, page 1>
  [4]
 Underfull \hbox (badness 2173) in paragraph at lines 287--287
 []\T1/lmr/m/n/12 Monograph presented to the Centro de
@@ -1987,33 +1992,138 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 File: USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf Graphic file (type pdf)
 <use USPSC-TA-PreTextual/USPSC-PaginaEmBranco.pdf, page 1>
- [6] (./USPSC-modelo-ICMCp.toc
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 14.
-)
+ [6]
+\openout2 = `USPSC-TA-PreTextual/USPSC-Dedicatoria.aux'.
+
+ (./USPSC-TA-PreTextual/USPSC-Dedicatoria.tex
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [7]
+ [7
+
+]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
  [8
 
+])
+\openout2 = `USPSC-TA-PreTextual/USPSC-Agradecimentos.aux'.
+
+
+(./USPSC-TA-PreTextual/USPSC-Agradecimentos.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [9
+
+
+
+
+]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [10
+
+])
+\openout2 = `USPSC-TA-PreTextual/USPSC-Resumo.aux'.
+
+
+(./USPSC-TA-PreTextual/USPSC-Resumo.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [11
+
+
+
+]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [12
+
+])
+\openout2 = `USPSC-TA-PreTextual/USPSC-Abstract.aux'.
+
+
+(./USPSC-TA-PreTextual/USPSC-Abstract.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [13
+
+
+
+]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [14
+
+]) (./USPSC-modelo-ICMCp.lof)
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+[15
+
+
+]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [16
+
+] (./USPSC-modelo-ICMCp.lot)
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [17]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [18
+
+] (./USPSC-modelo-ICMCp.toc
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 17.
+)
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[19]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [20
+
 ]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap1-Introducao.aux'.
 
-
-(./USPSC-TA-Textual/USPSC-Cap1-Introducao.tex
+ (./USPSC-TA-Textual/USPSC-Cap1-Introducao.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [9
+ [21
 
 
 ]
@@ -2025,7 +2135,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[10]
+[22]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux'.
 
  (./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.tex
@@ -2038,7 +2148,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[11
+[23
 
 
 
@@ -2055,7 +2165,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [12]
+ [24]
 File: USPSC-img/Kernel_Machine.png Graphic file (type bmp)
 <USPSC-img/Kernel_Machine.png>
 
@@ -2065,7 +2175,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [13]
+ [25]
 File: USPSC-img/random_forest_example.pdf Graphic file (type pdf)
 <use USPSC-img/random_forest_example.pdf>
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
@@ -2073,43 +2183,43 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[14]
+[26]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [15]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [16]
+ [28]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[17]
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [18])
+ [30])
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[19]
+[31]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [20]
+ [32]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux'.
 
  (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.tex
@@ -2122,7 +2232,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [21
+ [33
 
 
 
@@ -2133,7 +2243,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[22]
+[34]
 Overfull \hbox (32.59741pt too wide) in paragraph at lines 82--83
 []\T1/lmr/m/n/12 A bi-bli-o-teca Scikit-Learn ([][]BUI-TINCK \T1/lmr/m/it/12 et
  al.[][]\T1/lmr/m/n/12 , [][]2013[][]) foi uti-li-zada para o pré-processamento
@@ -2144,7 +2254,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[23]
+[35]
 File: USPSC-img/criacao_target.pdf Graphic file (type pdf)
 <use USPSC-img/criacao_target.pdf>
 
@@ -2154,7 +2264,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [24]
+ [36]
 File: USPSC-img/fluxo-limpeza.pdf Graphic file (type pdf)
 <use USPSC-img/fluxo-limpeza.pdf>
 
@@ -2164,7 +2274,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [25]
+ [37]
 File: USPSC-img/preprocessamento.pdf Graphic file (type pdf)
 <use USPSC-img/preprocessamento.pdf>
 
@@ -2174,7 +2284,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [26]
+ [38]
 File: USPSC-img/Curva ROC - GradientBoosting.png Graphic file (type bmp)
 <USPSC-img/Curva ROC - GradientBoosting.png>
 File: USPSC-img/Curva ROC - KNN.png Graphic file (type bmp)
@@ -2194,19 +2304,19 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[27]
+[39]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [28]
+ [40]
 File: USPSC-img/hiperparametros.pdf Graphic file (type pdf)
 <use USPSC-img/hiperparametros.pdf>
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [29]
+ [41]
 File: USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png Graphic file 
 (type bmp)
 <USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png>
@@ -2217,14 +2327,14 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [30]
+ [42]
 File: USPSC-img/curva_roc_modelos_teste.png Graphic file (type bmp)
 <USPSC-img/curva_roc_modelos_teste.png>
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [31]
+ [43]
 File: USPSC-img/comparacao_metricas_por_modelo.png Graphic file (type bmp)
 <USPSC-img/comparacao_metricas_por_modelo.png>
 
@@ -2234,7 +2344,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [32]
+ [44]
 File: USPSC-img/variacao_pct_metricas_teste_por_modelo.png Graphic file (type b
 mp)
 <USPSC-img/variacao_pct_metricas_teste_por_modelo.png>
@@ -2250,24 +2360,66 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [33]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-61.
+ [45]
+File: USPSC-img/exemplo_beeswarm.png Graphic file (type bmp)
+<USPSC-img/exemplo_beeswarm.png>
 
-(c:/Program Files/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [34]
+ [46]
+File: USPSC-img/top-features-lgbm.png Graphic file (type bmp)
+<USPSC-img/top-features-lgbm.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [47]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[48])
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [49]
+\openout2 = `USPSC-TA-Textual/USPSC-Cap4-Conclusao.aux'.
+
+ (./USPSC-TA-Textual/USPSC-Cap4-Conclusao.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [50
+
+
+
+
+])
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [51]
 (./USPSC-modelo-ICMCp.bbl
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [52
+
+
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -2277,46 +2429,53 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[35
-
-
-
-]
+[53]
 Missing character: There is no — ("2014) in font ec-lmr12!
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[36]
+[54]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [37]) 
+ [55]) 
 AED: lastpage setting LastPage
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[38]
-\tf@toc=\write7
-\openout7 = `USPSC-modelo-ICMCp.toc'.
+[56]
+\tf@lof=\write7
+\openout7 = `USPSC-modelo-ICMCp.lof'.
+
+\tf@lot=\write8
+\openout8 = `USPSC-modelo-ICMCp.lot'.
+
+\tf@toc=\write9
+\openout9 = `USPSC-modelo-ICMCp.toc'.
 
  (./USPSC-modelo-ICMCp.aux (./USPSC-TA-PreTextual/USPSC-CapaICMC.aux)
+(./USPSC-TA-PreTextual/USPSC-Dedicatoria.aux)
+(./USPSC-TA-PreTextual/USPSC-Agradecimentos.aux)
+(./USPSC-TA-PreTextual/USPSC-Resumo.aux)
+(./USPSC-TA-PreTextual/USPSC-Abstract.aux)
 (./USPSC-TA-Textual/USPSC-Cap1-Introducao.aux)
 (./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux)
-(./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux))
+(./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux)
+(./USPSC-TA-Textual/USPSC-Cap4-Conclusao.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42763 strings out of 475865
- 927077 string characters out of 5799411
- 1351202 words of memory out of 5000000
- 63079 multiletter control sequences out of 15000+600000
- 538121 words of font info for 71 fonts, out of 8000000 for 9000
+ 42902 strings out of 475865
+ 934741 string characters out of 5799411
+ 1358213 words of memory out of 5000000
+ 63181 multiletter control sequences out of 15000+600000
+ 537803 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,94p,1306b,1128s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,94p,1366b,1127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on USPSC-modelo-ICMCp.pdf (38 pages).
+Output written on USPSC-modelo-ICMCp.pdf (56 pages).

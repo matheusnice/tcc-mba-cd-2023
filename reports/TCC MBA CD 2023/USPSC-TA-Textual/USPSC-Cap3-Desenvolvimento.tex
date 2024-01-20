@@ -359,41 +359,38 @@ Também é possível observar, na \autoref{img:variacaoMetricas}, a variação p
 
 \subsection{Análise de variáveis mais importantes}
 
-O gráfico beeswarm, em relação ao SHAP (SHapley Additive exPlanations), é uma ferramenta valiosa para a interpretação de modelos de aprendizado de máquina. O SHAP é uma técnica que atribui um valor Shapley a cada recurso para cada previsão, ajudando a entender como cada recurso contribui individualmente para a saída do modelo. Aqui está uma explicação detalhada de como interpretar um gráfico beeswarm gerado pelo pacote SHAP:
+Esta seção aborda a análise das variáveis mais importantes para as predições do modelo, empregando o método SHAP (\textit{SHapley Additive exPlanations}). A escolha desse método de explicação é respaldada pelas vantagens detalhadas na \autoref{sec:shap}, onde se destaca sua capacidade de atribuir valores a cada variável (chamados de valores SHAP), oferecendo uma interpretação mais granular e confiável do impacto de cada variável nas predições do modelo \cite{Shap2017}.
 
-Contexto Geral:
-SHAP Values:
-O SHAP Value para uma observação específica mede a contribuição de cada recurso para a diferença entre a previsão do modelo para essa observação e a média das previsões do modelo.
-Ele reflete como cada característica influencia a saída do modelo para uma instância particular.
-Interpretação do Gráfico Beeswarm:
-Eixo Horizontal:
+A biblioteca SHAP possui diversas ferramentas úteis para análise da importância de variáveis em modelos de aprendizado de máquina. Entre as funcionalidades notáveis estão a capacidade de gerar gráficos claros e informativos, como o gráfico \textit{beeswarm}. Esse gráfico foi projetado para exibir um resumo denso de informações de como as principais variáveis em um conjunto de dados impactam a saída do modelo. A \autoref{img:exemploBeeswarm} mostra um exemplo de um gráfico \textit{beeswarm} de um modelo treinado com o conjunto de dados \textit{UCI adult income dataset} (conjunto de dados de renda adulta da UCI, em tradução livre), que é usado em tarefas de classificação para prever se pessoas granharam mais de 50 mil dólares durante os anos 90.
 
-Cada ponto no eixo horizontal representa um SHAP Value para um determinado recurso em uma observação específica.
-O eixo é geralmente dividido em duas partes para representar valores SHAP positivos (contribuindo positivamente para a saída do modelo) e negativos (contribuindo negativamente).
-Distribuição dos Pontos:
+\begin{figure}[H]
+	\centering
+	\caption{\label{img:exemploBeeswarm}Exemplo de gráfico \textit{beeswarm} para classificador treinado com o \textit{UCI adult income dataset}}
+	\includegraphics[scale=0.7]{USPSC-img/exemplo_beeswarm.png}
+	\begin{center}
+		Fonte: Autor (2023)
+	\end{center}
+\end{figure}
 
-A densidade e distribuição dos pontos ao longo do eixo horizontal indicam a frequência com que um valor específico do SHAP ocorre para esse recurso.
-Uma alta densidade em torno de zero sugere que o recurso tem uma contribuição neutra em muitos casos.
-Cor das Pontuações:
+Cada instância da explicação dada é representada por um único ponto em cada linha de variável. A posição $x$ do ponto é determinada pelo valor SHAP dessa variável, e os pontos \q{se acumulam} ao longo de cada linha de variável para mostrar a densidade. A cor é usada para exibir o valor original de uma variável. No exemplo da \autoref{img:exemploBeeswarm} pode-se notar que a idade é a característica mais importante em média, e que os jovens (azuis) têm menos probabilidade de ganhar mais de 50 mil.
 
-A cor dos pontos pode ser usada para indicar o valor da própria característica.
-Isso fornece uma visão adicional de como os valores específicos dessa característica se alinham com as contribuições do SHAP.
-Exemplo Prático:
-Exemplo de Análise:
+A análise da importância das variáveis neste trabalho foi conduzida utilizando essa mesma ferramenta (\textit{beeswarm}). O propósito central desta análise é proporcionar insights acionáveis para a prática clínica e estratégias de intervenção. A identificação das variáveis mais significativas não apenas informa sobre os fatores críticos associados às reinternações, mas também orienta a implementação de intervenções preventivas específicas. A partir dessas informações, estratégias personalizadas podem ser desenvolvidas, desde ajustes individuais no tratamento até a criação de campanhas sazonais direcionadas a grupos específicos de pacientes. A \autoref{img:topFeatures} traz o ranking com as 15 variáveis mais importantes para o output do modelo LGBM.
 
-Se um ponto para a feature "Idade" está à direita, isso sugere que, para essa observação específica, a idade contribuiu positivamente para a previsão do modelo.
-Pontos à esquerda indicariam uma contribuição negativa da idade.
-Dispersão Vertical:
+\begin{figure}[H]
+	\centering
+	\caption{\label{img:topFeatures}Gráfico \textit{beeswarm} com as 15 variáveis mais importantes para classificador LGBM}
+	\includegraphics[scale=0.7]{USPSC-img/top-features-lgbm.png}
+	\begin{center}
+		Fonte: Autor (2023)
+	\end{center}
+\end{figure}
 
-A dispersão vertical dos pontos em torno de um determinado valor de SHAP indica como diferentes instâncias contribuem de maneira semelhante ou diferente para a saída do modelo com relação a esse recurso específico.
-Padrões e Tendências:
+A análise da \autoref{img:topFeatures} traz insights cruciais sobre as variáveis mais impactantes no contexto da previsão de reinternações hospitalares. A variável que se destacou como a mais importante foi \q{\textbf{estado\_civil\_solteiro}}, que assume valores binários 0 e 1. Quando esta variável assume o valor 1, indicando que o paciente é solteiro, observou-se uma correlação significativa com uma maior probabilidade de reinternação.
 
-Padrões claros e tendências no gráfico podem revelar interações complexas entre diferentes recursos e como elas afetam as previsões do modelo.
-Importância Relativa:
+Duas variáveis relacionadas à temporalidade se mostraram igualmente essenciais. A \q{\textbf{tempo\_internacao\_horas}} emergiu como a segunda variável mais importante, indicando que tempos mais curtos de internação estão associados a uma maior probabilidade de reinternação. Similarmente, a \q{\textbf{idade\_data\_internacao}} ocupou a terceira posição no ranking, destacando que pacientes mais jovens, identificados pela coloração azul no gráfico, apresentam uma maior propensão à reinternação.
 
-Pontos mais distantes da linha central zero geralmente indicam uma maior importância relativa do recurso para essa previsão específica.
-Comparações Entre Modelos:
+A análise também abordou variáveis que passaram por transformações trigonométricas, como \q{\textbf{mes\_data\_internacao}} e \q{\textbf{dia\_semana\_data\_internacao}}. A presença dessas variáveis no ranking sugere que padrões sazonais podem desempenhar um papel significativo na probabilidade de reinternação, fornecendo uma perspectiva valiosa para a implementação de estratégias preventivas.
 
-O beeswarm é particularmente útil ao comparar SHAP Values entre modelos, ajudando a entender como diferentes algoritmos atribuem importância aos recursos.
-Conclusão:
-Ao interpretar um gráfico beeswarm do SHAP, é crucial considerar o contexto específico do modelo, do domínio do problema e das características individuais. A análise cuidadosa desses gráficos pode fornecer insights profundos sobre como o modelo toma decisões e ajudar a identificar padrões complexos nos dados.
+Além disso, um destaque notável foi a variável representada pelo código F200 da lista CID-10 (Classificação Internacional de Doenças e Problemas Relacionados à Saúde), correspondente à esquizofrenia paranóide. Esta variável emergiu como uma indicação importante, sugerindo que pacientes admitidos com esse diagnóstico específico têm uma probabilidade substancialmente maior de reinternação.
+
+Também é possível observar variáveis com o sufixo \q{não informado} entre as mais importantes. Esse sufixo indica que, para uma determinada instância do conjunto de dados, uma dada variável não foi preenchida no momento da admissão, ou foi preenchida exatamente com o status \q{não informado}. A presença de variáveis desse tipo no ranking sugere que essa categoria tem uma influência discernível nas predições do modelo, indicando que a ausência de informações é um fator relevante para o entendimento do modelo sobre a probabilidade de reinternação. Contudo, essa interpretação deve ser feita com cautela, uma vez que\q{não informado} pode não representar uma característica intrínseca do paciente, mas sim uma lacuna nos registros.

@@ -1,9 +1,11 @@
-%% USPSC-Cap3-Conclusao.tex
+% USPSC-Cap3-Conclusao.tex
 % ---
 % Conclusão
 % ---
 \chapter{Conclusão}
-% ---
-% O comando abaixo insere parágrafos aleatórios só para exemplificar
-Apresentar as conclusões correspondentes aos objetivos ou hipóteses propostos para o desenvolvimento do trabalho, podendo incluir  sugestões para novas pesquisas.
 
+Durante o trabalho, buscou-se delimitar com precisão cada etapa do projeto. O primeiro passo envolveu a definição do domínio do problema, focando na aplicação de modelos de classificação de aprendizado de máquina aos dados da Coordenação de Internações de Ribeirão Preto, Brasil. O processo de limpeza e preparação dos dados, realizado com ferramentas como Pandas, Numpy e Scikit-Learn, incluiu a eliminação de variáveis redundantes, a padronização de categorias e a criação de novas variáveis temporais. O treinamento e seleção dos classificadores foram conduzidos em três etapas: treinamento sem tunagem de hiperparâmetros, treinamento com tunagem de hiperparâmetros e validação no conjunto de teste. Por fim, a análise de variáveis importantes foi executada utilizando o método SHAP para conferir interpretabilidade aos modelos. As variáveis mais influentes foram identificadas, destacando padrões temporais, características sociodemográficas e diagnósticos específicos associados à reinternação.
+
+Apesar de o trabalho ter sido bem-sucedido na construção do \textit{pipeline} de experimentação, modelagem e análise de importância das variáveis para o output do modelo, a observação das acurácias dos modelos, que não ultrapassaram os 60\%, sugere que há espaço para melhorias na performance preditiva.
+
+Diversas alternativas podem ser exploradas para aprimorar esses resultados. Primeiramente, uma expansão do conjunto de dados poderia enriquecer a variedade de padrões aprendidos pelos modelos. Além disso, a escolha de modelos mais complexos ou a exploração de arquiteturas mais avançadas, como redes neurais, poderiam capturar relações não lineares complexas presentes nos dados. A otimização mais refinada dos hiperparâmetros dos modelos, possivelmente através de abordagens avançadas como otimização bayesiana, também pode contribuir para ajustes mais precisos. Essas sugestões oferecem direções promissoras para futuras pesquisas. Essas considerações não apenas podem ser aplicadas a esta base de dados específica, mas também servir como um guia para investigações semelhantes em outras bases de dados, proporcionando um arcabouço para o avanço contínuo na compreensão e predição de padrões relacionados à reinternação hospitalar.
