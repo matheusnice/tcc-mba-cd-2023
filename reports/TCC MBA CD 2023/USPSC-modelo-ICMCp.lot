@@ -1,6 +1,6 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Variáveis utilizadas do conjunto de dados}}{34}{table.3.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Resultados obtidos após o treinamento dos modelos sem tunagem de hiperparâmetros}}{41}{table.3.2}%
-\contentsline {table}{\numberline {3}{\ignorespaces Resultados obtidos após o treinamento dos modelos com tunagem de hiperparâmetros}}{43}{table.3.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Resultados obtidos na validação no conjunto de teste}}{44}{table.3.4}%
+\contentsline {table}{\numberline {1}{\ignorespaces \centering Variáveis utilizadas do conjunto de dados.}}{36}{table.3.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces \centering Resultados obtidos após o treinamento dos modelos sem otimização de hiperparâmetros.}}{42}{table.3.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces \centering Resultados obtidos após o treinamento dos modelos com otimização de hiperparâmetros.}}{45}{table.3.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces \centering Resultados obtidos na validação no conjunto de teste.}}{46}{table.3.4}%

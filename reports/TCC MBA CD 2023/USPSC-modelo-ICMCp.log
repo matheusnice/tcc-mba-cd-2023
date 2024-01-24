@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  19 JAN 2024 18:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.4)  23 JAN 2024 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2117,8 +2117,6 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 \openout2 = `USPSC-TA-Textual/USPSC-Cap1-Introducao.aux'.
 
  (./USPSC-TA-Textual/USPSC-Cap1-Introducao.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
@@ -2134,11 +2132,26 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-
-[22]
+ [22]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [23]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.aux'.
 
- (./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.tex
+
+(./USPSC-TA-Textual/USPSC-Cap2-RevisaoBibliografica.tex
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [24
+
+
+
+
+]
 Overfull \hbox (5.3148pt too wide) in paragraph at lines 13--14
 \T1/lmr/m/n/12 di-zado. Exis-tem sis-te-mas su-per-vi-si-o-na-dos, não su-per-v
 i-si-o-na-dos, semi-supervisionados, auto-
@@ -2148,48 +2161,30 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[23
-
-
-
-
-]
+[25]
 Missing character: There is no “ ("201C) in font ec-lmr12!
 Missing character: There is no ” ("201D) in font ec-lmr12!
 File: USPSC-img/funcao-logistica.png Graphic file (type bmp)
 <USPSC-img/funcao-logistica.png>
-
-Underfull \vbox (badness 2359) has occurred while \output is active []
-
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [24]
+[26]
 File: USPSC-img/Kernel_Machine.png Graphic file (type bmp)
 <USPSC-img/Kernel_Machine.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1803) has occurred while \output is active []
 
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [25]
-File: USPSC-img/random_forest_example.pdf Graphic file (type pdf)
-<use USPSC-img/random_forest_example.pdf>
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
-
-[26]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
  [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+File: USPSC-img/random_forest_example.pdf Graphic file (type pdf)
+<use USPSC-img/random_forest_example.pdf>
+
+Underfull \vbox (badness 1509) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
@@ -2202,62 +2197,52 @@ File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
 [29]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [30])
+ [31]
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[31]
+[32])
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [32]
+ [33]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.aux'.
 
  (./USPSC-TA-Textual/USPSC-Cap3-Desenvolvimento.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 71.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [33
+ [34
 
 
 
 
 ]
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 73.
 
-[34]
-Overfull \hbox (32.59741pt too wide) in paragraph at lines 82--83
-[]\T1/lmr/m/n/12 A bi-bli-o-teca Scikit-Learn ([][]BUI-TINCK \T1/lmr/m/it/12 et
- al.[][]\T1/lmr/m/n/12 , [][]2013[][]) foi uti-li-zada para o pré-processamento
-,
- []
+Underfull \vbox (badness 1038) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
-[35]
-File: USPSC-img/criacao_target.pdf Graphic file (type pdf)
-<use USPSC-img/criacao_target.pdf>
-
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
@@ -2265,16 +2250,31 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
  [36]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[37]
+File: USPSC-img/criacao_target.pdf Graphic file (type pdf)
+<use USPSC-img/criacao_target.pdf>
 File: USPSC-img/fluxo-limpeza.pdf Graphic file (type pdf)
 <use USPSC-img/fluxo-limpeza.pdf>
 
+Underfull \vbox (badness 1509) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [37]
+ [39]
 File: USPSC-img/preprocessamento.pdf Graphic file (type pdf)
 <use USPSC-img/preprocessamento.pdf>
 
@@ -2284,7 +2284,7 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [38]
+ [40]
 File: USPSC-img/Curva ROC - GradientBoosting.png Graphic file (type bmp)
 <USPSC-img/Curva ROC - GradientBoosting.png>
 File: USPSC-img/Curva ROC - KNN.png Graphic file (type bmp)
@@ -2299,24 +2299,22 @@ File: USPSC-img/Curva ROC - SVM.png Graphic file (type bmp)
 <USPSC-img/Curva ROC - SVM.png>
 File: USPSC-img/Curva ROC - XGB.png Graphic file (type bmp)
 <USPSC-img/Curva ROC - XGB.png>
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[39]
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [40]
-File: USPSC-img/hiperparametros.pdf Graphic file (type pdf)
-<use USPSC-img/hiperparametros.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
  [41]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[42]
+File: USPSC-img/hiperparametros.pdf Graphic file (type pdf)
+<use USPSC-img/hiperparametros.pdf>
 File: USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png Graphic file 
 (type bmp)
 <USPSC-img/curva_roc_modelos_sem_tunagem_hiperparametros.png>
@@ -2327,16 +2325,9 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [42]
+ [43]
 File: USPSC-img/curva_roc_modelos_teste.png Graphic file (type bmp)
 <USPSC-img/curva_roc_modelos_teste.png>
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [43]
-File: USPSC-img/comparacao_metricas_por_modelo.png Graphic file (type bmp)
-<USPSC-img/comparacao_metricas_por_modelo.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2345,6 +2336,19 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
  [44]
+File: USPSC-img/comparacao_metricas_por_modelo.png Graphic file (type bmp)
+<USPSC-img/comparacao_metricas_por_modelo.png>
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+
+[45]
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [46]
 File: USPSC-img/variacao_pct_metricas_teste_por_modelo.png Graphic file (type b
 mp)
 <USPSC-img/variacao_pct_metricas_teste_por_modelo.png>
@@ -2353,24 +2357,13 @@ Overfull \hbox (50.88754pt too wide) in paragraph at lines 354--355
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [45]
+[47]
 File: USPSC-img/exemplo_beeswarm.png Graphic file (type bmp)
 <USPSC-img/exemplo_beeswarm.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [46]
 File: USPSC-img/top-features-lgbm.png Graphic file (type bmp)
 <USPSC-img/top-features-lgbm.png>
 
@@ -2380,36 +2373,33 @@ File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [47]
+ [48]
+Underfull \vbox (badness 7344) has occurred while \output is active []
+
+File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
+<USPSC-img/CapaICMC.jpg>
+File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
+<USPSC-img/USPSC-PaginaEmBranco.jpg>
+ [49])
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
 
-[48])
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [49]
+[50]
 \openout2 = `USPSC-TA-Textual/USPSC-Cap4-Conclusao.aux'.
 
- (./USPSC-TA-Textual/USPSC-Cap4-Conclusao.tex
+ (./USPSC-TA-Textual/USPSC-Cap4-Conclusao.tex)
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
 File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
 <USPSC-img/USPSC-PaginaEmBranco.jpg>
- [50
+ [51
 
 
 
 
-])
-File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
-<USPSC-img/CapaICMC.jpg>
-File: USPSC-img/USPSC-PaginaEmBranco.jpg Graphic file (type bmp)
-<USPSC-img/USPSC-PaginaEmBranco.jpg>
- [51]
+]
 (./USPSC-modelo-ICMCp.bbl
 File: USPSC-img/CapaICMC.jpg Graphic file (type bmp)
 <USPSC-img/CapaICMC.jpg>
@@ -2472,10 +2462,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  42902 strings out of 475865
  934741 string characters out of 5799411
- 1358213 words of memory out of 5000000
+ 1359274 words of memory out of 5000000
  63181 multiletter control sequences out of 15000+600000
  537803 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,17n,94p,1366b,1127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,94p,1419b,1127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on USPSC-modelo-ICMCp.pdf (56 pages).

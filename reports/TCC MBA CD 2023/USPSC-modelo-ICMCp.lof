@@ -1,17 +1,17 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo geral do trabalho}}{22}{figure.1.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de função logística}}{25}{figure.2.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de transformação utilizando \textit {kernel}: Convertendo um problema de classificação não linear em um problema de classificação linear em uma dimensão superior.}}{26}{figure.2.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Ilustração do algoritmo \textit {Random Forest}.}}{27}{figure.2.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Fluxograma ilustrando o processo de criação da variável-alvo ``reinternação'' e a filtragem para extrair informações da primeira internação de cada paciente. Na parte superior, o estado inicial do conjunto de dados com múltiplas internações. Na parte inferior, o conjunto final, otimizado para as próximas fases de pré-processamento e treinamento dos modelos, após a aplicação das funções.}}{37}{figure.3.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Fluxograma representando as transformações aplicadas ao conjunto inicial de dados durante o processo de limpeza e preparação.}}{38}{figure.3.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces \textit {Pipeline} de pré-processamento dos dados.}}{39}{figure.3.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Curvas ROC para cada um dos classificadores e cada \textit {fold} da validação cruzada}}{40}{figure.3.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Classificadores e seus respectivos conjuntos de hiperparâmetros testados na etapa de treinamento com tunagem.}}{41}{figure.3.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Comparação das curvas ROC para cada classificador nas etapas de treinamento com e sem tunagem de hiperparâmetros}}{42}{figure.3.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Curvas ROC para cada classificador na etapa de validação no conjunto de teste}}{43}{figure.3.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Comparação das métricas de desempenho em diferentes etapas de validação (treinamento sem e com tunagem, e teste) para os modelos}}{45}{figure.3.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Variação percentual das métricas no conjunto de teste em comparação com as métricas na etapa de tunagem}}{46}{figure.3.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Exemplo de gráfico \textit {beeswarm} para classificador treinado com o \textit {UCI adult income dataset}}}{47}{figure.3.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Gráfico \textit {beeswarm} com as 15 variáveis mais importantes para classificador LGBM}}{48}{figure.3.15}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo geral do trabalho.}}{23}{figure.1.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de função logística.}}{27}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemplo de transformação utilizando \textit {kernel}: Convertendo um problema de classificação não linear em um problema de classificação linear em uma dimensão superior.}}{27}{figure.2.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Ilustração do algoritmo \textit {Random Forest}.}}{29}{figure.2.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Fluxograma ilustrando o processo de criação da variável-alvo ``reinternação'' e a filtragem para extrair informações da primeira internação de cada paciente. Na parte superior, o estado inicial do conjunto de dados com múltiplas internações. Na parte inferior, o conjunto final, otimizado para as próximas fases de pré-processamento e treinamento dos modelos, após a aplicação das funções.}}{39}{figure.3.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Fluxograma representando as transformações aplicadas ao conjunto inicial de dados durante o processo de limpeza e preparação.}}{40}{figure.3.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \textit {Pipeline} de pré-processamento dos dados.}}{40}{figure.3.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Curvas ROC para cada um dos classificadores e cada \textit {fold} da validação cruzada.}}{42}{figure.3.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Classificadores e seus respectivos conjuntos de hiperparâmetros testados na etapa de treinamento com otimização.}}{43}{figure.3.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Comparação das curvas ROC para cada classificador nas etapas de treinamento com e sem otimização de hiperparâmetros.}}{44}{figure.3.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Curvas ROC para cada classificador na etapa de validação no conjunto de teste.}}{45}{figure.3.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Comparação das métricas de desempenho em diferentes etapas de validação (treinamento sem e com otimização, e teste) para os modelos.}}{46}{figure.3.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Variação percentual das métricas no conjunto de teste em comparação com as métricas na etapa de otimização.}}{47}{figure.3.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Exemplo de gráfico \textit {beeswarm} para classificador treinado com o \textit {UCI adult income dataset}.}}{48}{figure.3.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Gráfico \textit {beeswarm} com as 15 variáveis mais importantes para classificador LGBM.}}{49}{figure.3.15}%
